@@ -14,4 +14,5 @@ class Currency extends Model
     protected $fillable = ['currency_name'];
 
     protected $hidden = ['created_at', 'updated_at'];
+
 }
